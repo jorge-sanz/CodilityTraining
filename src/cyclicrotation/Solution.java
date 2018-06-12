@@ -1,7 +1,6 @@
-package CyclicRotation;
+package cyclicrotation;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Solution {
     public static int[] solution(int[] A, int K) {
