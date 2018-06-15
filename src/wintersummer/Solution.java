@@ -30,7 +30,6 @@ public class Solution {
             if (maximumTemperatureOfWinter >= T[i]) {
                 maximumTemperatureOfWinter = maximumTemperatureFound;
                 lookingForTheSummer = true;
-                System.out.println("Breaking summer");
             }
 
             /**
@@ -52,5 +51,6 @@ public class Solution {
         System.out.println(solution(new int[]{1, 0, 3})); // One possible summer breaking
         System.out.println(solution(new int[]{1, 3, 2, 4})); // The temperature get lower for a moment but we are still in summer
         System.out.println(solution(new int[]{1, 3, 2, 0, 4, 5})); // This test case passes through all possible statuses
+        System.out.println(solution(new int[]{1, -3, -2, 4, 5}));
     }
 }
