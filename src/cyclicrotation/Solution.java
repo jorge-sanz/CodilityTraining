@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 public class Solution {
     public static int[] solution(int[] A, int K) {
-        // write your code in Java SE 8
-
         ArrayList<Integer> previousArray = new ArrayList<Integer>();
         ArrayList<Integer> currentArray;
 
@@ -34,7 +32,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] solution = solution(new int[]{1, 2 , 3, 6}, 2);
+        int[] solution = solution(new int[]{1, 2, 3, 6}, 2);
         for (int i = 0; i < solution.length; i++) {
             System.out.println("Solution " + solution[i]);
         }

@@ -1,8 +1,6 @@
-package test;
+package missinginteger;
 
-// MissingInteger
-
-public class Example {
+public class Solution {
     public int solution(int[] A) {
         int number = 0;
         boolean foundIt = true;

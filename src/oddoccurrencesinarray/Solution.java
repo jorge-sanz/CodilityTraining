@@ -3,7 +3,6 @@ package oddoccurrencesinarray;
 public class Solution {
 
     public static int solution(int[] A) {
-        // write your code in Java SE 8
         int result = 0;
         int sum;
 

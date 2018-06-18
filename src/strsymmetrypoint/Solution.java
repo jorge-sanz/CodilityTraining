@@ -3,7 +3,6 @@ package strsymmetrypoint;
 public class Solution {
 
     public static int solution(String S) {
-        // write your code in Java SE 8
         int length = S.length();
 
         if (length == 0) return -1;

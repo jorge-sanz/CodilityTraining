@@ -3,7 +3,6 @@ package binarygaps;
 public class Solution {
 
     public static int solution(int N) {
-        // write your code in Java SE 8
         int temporaryLength = 0;
         int finalLength = 0;
         String binary = Integer.toBinaryString(N);
@@ -34,10 +33,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
-        // Prints "Hello, World" to the terminal window.
         System.out.println(solution(1041));
-
     }
 
 }

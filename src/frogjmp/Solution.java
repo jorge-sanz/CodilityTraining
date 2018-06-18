@@ -2,7 +2,6 @@ package frogjmp;
 
 public class Solution {
     public static int solution(int X, int Y, int D) {
-        // write your code in Java SE 8
         double start = X;
         double end = Y;
         double jumpDistance = D;

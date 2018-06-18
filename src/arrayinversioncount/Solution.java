@@ -2,7 +2,6 @@ package arrayinversioncount;
 
 public class Solution {
     public int solution(int[] A) {
-        // write your code in Java SE 8
         int length = A.length;
         int counter = 0;
 
