@@ -6,6 +6,7 @@ A set of solved problems from Codility training page.
 
 <!-- TOC -->
 
+- [TODO](#todo)
 - [Notes](#notes)
 - [Development](#development)
 - [Lessons](#lessons)
@@ -16,6 +17,10 @@ A set of solved problems from Codility training page.
 - [Related](#related)
 
 <!-- /TOC -->
+
+## TODO
+
+- Refactor code to improve understandability.
 
 ## Notes
 
