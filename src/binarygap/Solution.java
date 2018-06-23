@@ -28,10 +28,6 @@ public class Solution {
         return finalLength;
     }
 
-    public static String intToBinary(int number) {
-        return Integer.toBinaryString(number);
-    }
-
     public static void main(String[] args) {
         System.out.println(solution(1041));
     }
