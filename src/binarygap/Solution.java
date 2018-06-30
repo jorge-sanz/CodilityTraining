@@ -6,26 +6,29 @@ public class Solution {
         int temporaryLength = 0;
         int finalLength = 0;
         String binary = Integer.toBinaryString(N);
-        String status = "searching";
-
+        Status status = Status.SEARCHING;
         char character;
 
         for (int i = 0; i < binary.length(); i++) {
             character = binary.charAt(i);
 
-            if (status.equals("searching") && character == '0') {
+            if (status == Status.SEARCHING && character == '0') {
                 temporaryLength++;
-                status = "counting";
-            } else if (status.equals("counting") && character == '0') {
+                status = Status.COUNTING;
+            } else if (status == Status.COUNTING && character == '0') {
                 temporaryLength++;
-            } else if (status.equals("counting") && character == '1') {
+            } else if (status == Status.COUNTING && character == '1') {
                 if (finalLength < temporaryLength) finalLength = temporaryLength;
-                status = "searching";
+                status = Status.SEARCHING;
                 temporaryLength = 0;
             }
         }
 
         return finalLength;
+    }
+
+    enum Status {
+        SEARCHING, COUNTING
     }
 
     public static void main(String[] args) {
