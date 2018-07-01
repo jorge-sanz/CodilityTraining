@@ -7,6 +7,8 @@ public class Solution {
         ArrayList<Integer> previousArray = new ArrayList<Integer>();
         ArrayList<Integer> currentArray;
 
+        if (A.length == 0) return A;
+
         for (int i = 0; i < A.length; i++) {
             previousArray.add(new Integer(A[i]));
         }
