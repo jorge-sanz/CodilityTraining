@@ -50,7 +50,7 @@ public class Solution {
         System.out.println(solution(new int[]{1, 2, 3, 4})); // Interesting case: temperatures always get higher and higher
         System.out.println(solution(new int[]{1, 0, 3})); // One possible summer breaking
         System.out.println(solution(new int[]{1, 3, 2, 4})); // The temperature get lower for a moment but we are still in summer
-        System.out.println(solution(new int[]{1, 3, 2, 0, 4, 5})); // This missinginteger case passes through all possible statuses
+        System.out.println(solution(new int[]{1, 3, 2, 0, 4, 5}));
         System.out.println(solution(new int[]{1, -3, -2, 4, 5}));
     }
 }
