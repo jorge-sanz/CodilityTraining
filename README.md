@@ -6,7 +6,6 @@ A set of solved problems from [Codility training page](https://app.codility.com/
 
 <!-- TOC -->
 
-- [TODO](#todo)
 - [Notes](#notes)
 - [Development](#development)
 - [Lessons](#lessons)
@@ -18,15 +17,10 @@ A set of solved problems from [Codility training page](https://app.codility.com/
 
 <!-- /TOC -->
 
-## TODO
-
-- Refactor code to improve understandability.
-
 ## Notes
 
 - Internal documentation missing.
-- Not all of them fit into the required algorithmic complexity.
-- Code could have been refactored to improve understandability after been solved in the given time.
+- Not all of them fit into required algorithmic complexity.
 
 ## Development
 
